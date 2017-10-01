@@ -1,0 +1,152 @@
+*{
+  box-sizing: border-box;
+  font-family: Microsoft JhengHei;
+}
+
+#nav{
+  background-color: #ff6600;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.menu{
+  float: right;
+}
+.menu li{
+  width: 150px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 8px 0;
+  list-style-type: none;
+  border-radius: 5px;
+  background-color: #FF7700;
+  display: inline-block;
+}
+a{
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+li:hover{
+  border: 1px solid #FF7700;
+  background-color: #FFFFFF;
+}
+li:hover a{
+  color: #FF7700;
+  font-weight: 800;
+}
+#content{
+  position: relative;
+  top: 74px;
+}
+#content > .container > div{
+  padding: 78px 0;
+}
+
+#my-avator{
+  float: left;
+  margin-right: 20px;
+}
+#my-avator img{
+  width: 235px;
+}
+h1{
+  margin-bottom: 0;
+  text-align: center;
+}
+#about h1{
+  margin-bottom: 0;
+  text-align: left;
+}
+h3{
+  margin: 0;
+}
+table{
+  text-align: left;
+}
+th, td{
+  vertical-align: top;
+}
+th{
+  width: 70px;
+  font-weight: bold
+}
+td{
+  padding-left: 5px; 
+  color: #666
+}
+
+#my-work-galary{
+  text-align: center;
+}
+
+.item{
+  position: relative;
+  max-width: 30%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.item img{
+  width: 100%;
+}
+.item-info{
+  background-color: rgba(255,255,255,.8);
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 25px 10px;
+  display: none;
+}
+.item:hover .item-info{
+  display: inline-block;
+}
+
+form.form{
+  width: 50%;
+  margin: 0 auto;
+}
+.form-row{
+  margin-bottom: 15px;
+}
+.form label{
+  vertical-align: top;
+}
+.form-row input, .form-row textarea{
+  border-radius: 3px;
+  padding: 7px;
+  border: 1px solid #D6D9DC;
+  width: 100%;
+}
+.form-row textarea{
+  resize: none;
+  height: 10em;
+}
+.form-row button{
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer; 
+  font-size: 14px;
+}
+.form-row button[type="submit"]{
+  background-color: #FF8C00;
+}
+.form-row button:hover{
+  background-color: #76AEED;
+}
+.form-row button:active {
+  background-color: #407FC7;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+hr.bar{
+  border: 2px solid #FF6600;
+  width: 80px;
+}
